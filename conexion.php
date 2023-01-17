@@ -20,8 +20,8 @@
     if($resultado->num_rows<1){
         
         $consulta="INSERT INTO productos (nombre, descripcion, imagen, precio, categoria) 
-        VALUES ('Pantalones Adidas', 'Pantalones deportivos de la marca Adidas', 'pantalonesadidas.jpg', 40, 'Pantalones'),
-        ('Sudadera Nike', 'PSudadera de algodón Nike color blanco, Sudadera', 'sudaderanike.jpg', 50, 'Sudadera');";
+        VALUES ('Adidas tracksuit', 'Adidas brand sports tracksuit', 'pantalonesadidas.jpg', 40, 'Tracksuit'),
+        ('Nike sweatshirt', 'White Nike cotton sweatshirt', 'sudaderanike.jpg', 50, 'Sweatshirt');";
         
         $conexion->query($consulta);
 
